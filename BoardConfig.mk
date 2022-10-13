@@ -20,6 +20,7 @@ TARGET_BOOTLOADER_BOARD_NAME := lava
 
 # Inherit from mt6768-common
 -include device/xiaomi/mt6768-common/BoardConfigCommon.mk
+SKIP_API_CHECKS:=true
 
 # Kernel
 TARGET_KERNEL_CONFIG := lancelot_defconfig
